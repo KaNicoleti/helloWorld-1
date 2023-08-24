@@ -11,6 +11,11 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'promocao',
+    loadChildren: () => import('./promocao/promocao.module').then( m => m.PromocaoPageModule)
+  },
+
 ];
 
 @NgModule({
