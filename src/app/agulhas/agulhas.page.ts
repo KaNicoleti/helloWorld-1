@@ -21,15 +21,20 @@ export class AgulhasPage implements OnInit {
       nome: "Agulha de tapeceiro",
       descricao: "10cm",
       valor: 5,
-      foto:''
+      foto:'https://th.bing.com/th/id/OIP.cuJg1-7BEeBUNX1rABQMEgHaHa?pid=ImgDet&rs=1'
     },
     {
       nome: "olhos achatados 10 pares",
       descricao: "9cm - redondo",
       valor: 25
-      foto:''
+      foto:'https://img.elo7.com.br/product/zoom/409D0E6/kit-olho-chato-9mm-12mm-e-16mm-15pares-para-amigurumi-olhos-com-trava-de-seguranca.jpg'
     },
-
+    {
+      nome: "olhos pinos 10 pares",
+      descricao: "9cm - redondo",
+      valor: 25
+      foto:'https://img.elo7.com.br/product/zoom/3562857/5-pares-olhos-15-mm-castanhos-boneca-esperanca-olhos-castanhos.jpg'
+    },
   ];
 
   constructor() { }

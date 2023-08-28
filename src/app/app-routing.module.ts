@@ -12,15 +12,13 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'promocao',
-    loadChildren: () => import('./promocao/promocao.module').then( m => m.PromocaoPageModule)
-  },  {
-    path: 'bonecos',
-    loadChildren: () => import('./bonecos/bonecos.module').then( m => m.BonecosPageModule)
-  },
-  {
     path: 'agulhas',
     loadChildren: () => import('./agulhas/agulhas.module').then( m => m.AgulhasPageModule)
+  },
+ 
+  {
+    path: 'bonecos',
+    loadChildren: () => import('./bonecos/bonecos.module').then( m => m.BonecosPageModule)
   },
   {
     path: 'carrinho',
