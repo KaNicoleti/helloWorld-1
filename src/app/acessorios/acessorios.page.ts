@@ -22,7 +22,11 @@ export class AcessoriosPage implements OnInit {
       nome: "Tapete de banheiro (jogo)",
       descricao: "3 peças",
       valor: 5,
+<<<<<<< HEAD
+      foto:'https://static3.tcdn.com.br/img/img_prod/864148/marcador_de_ponto_tipo_cadeado_para_croche_e_trico_pct_c_50_unid_1461_1_9b6de0d9d29cd71c0d3a67fd54ca80ff.jpg'
+=======
       foto:'https://i.pinimg.com/564x/d1/b1/f4/d1b1f4d8b691589352bdb166a5ef3422.jpg'
+>>>>>>> cac9800543b43e976069d2bf08f4d10a83142acd
     },
     {
       nome: "Capa de banco",
