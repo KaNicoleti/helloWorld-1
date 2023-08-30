@@ -3,6 +3,12 @@
     <ion-title color="light" class="ion-text-center">
       Categorias
     </ion-title>
+    <ion-buttons slor="end">
+      <ion-button routerLink="/carrinho">
+        <ion-icon name="cart-outline"></ion-icon>
+        <ion-badge color="dark">{{qtdeItensCarrinho}}</ion-badge>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -11,8 +17,9 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        <ion-card color="light">
-         <img src="https://vetus.com.br/universidade/wp-content/uploads/2017/11/promocao-02.png" alt="">
+        <ion-card color="light" routerLink="/ofertas">
+          <!-- troca o caminho das imagens  <img src="assets/promocao.png" alt=""> -->
+          <img src="assets/promocao.jpg" alt="">
         <ion-item  color="dark">
           <ion-label class="titulo-promocao" >Confira nossos produtos em promoção!</ion-label>
         </ion-item>
@@ -21,16 +28,16 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-card color="light">
-          <img src="https://tecendovidas.com/wp-content/uploads/2020/05/Bonecos_pattern-1-1024x957.jpg" alt="">
+        <ion-card color="light" routerLink="/bonecos">
+          <img src="assets/bonecos.jpg" alt="">
           <ion-item color="light">
             <ion-label class="titulo-bonecos" >Bonecos</ion-label>
           </ion-item>
         </ion-card>
       </ion-col>
       <ion-col>
-        <ion-card color="light">
-          <img src="https://i.pinimg.com/736x/24/9a/d1/249ad13cc8ac62684d9ad0c5fcc6f822.jpg" alt="">
+        <ion-card color="light" routerLink="/agulhas">
+          <img src="assets/agulhas.jpg" alt="">
           <ion-item color="light">
             <ion-label class="titulo-agulhas" >Agulhas</ion-label>
           </ion-item>
@@ -39,15 +46,15 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-card color="light">
-          <img src="" alt="">
-          <ion-item color="light">
+        <ion-card color="light" routerLink="/Acessórios">
+          <img src="assets/acessorios.jpg" alt="">
+           <ion-item color="light">
             <ion-label class="titulo-acessorios">Acessórios</ion-label>
           </ion-item>
         </ion-card>
       </ion-col>
       <ion-col>
-        <ion-card color="light">
+        <ion-card color="light" routerLink="/linhas">
           <img src="assets/linhas.jpg" alt="">
           <ion-item color="light">
             <ion-label class="titulo-linhas">Linhas</ion-label>

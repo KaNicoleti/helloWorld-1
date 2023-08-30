@@ -2,37 +2,37 @@ import { Component, OnInit } from '@angular/core';
 import { BdtempService } from '../services/bdtemp.service';
 
 @Component({
-  selector: 'app-agulhas',
-  templateUrl: './agulhas.page.html',
-  styleUrls: ['./agulhas.page.scss'],
+  selector: 'app-linhas',
+  templateUrl: './linhas.page.html',
+  styleUrls: ['./linhas.page.scss'],
 })
-export class AgulhasPage implements OnInit {
+export class LinhasPage implements OnInit {
 
   qtdeItensCarrinho = 0;
 
   listaProdutos = [
     {
-      nome: "Agulha tulip-red",
-      descricao: "2.00cm - emborrachada",
-      valor: 100,
+      nome: "Linha Merce",
+      descricao: "3.00mts - algodão",
+      valor: 19.98,
       // por o endereço da foto com o caminho//
-     foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ7JTfRRrsOQgnTgt8J3L3TdjKdMw_dTRX0Q&usqp=CAU'
+     foto:''
     },
     {
       nome: "Agulha de tapeceiro",
-      descricao: "10cm",
+      descricao: "3.00mts - algodão",
       valor: 5,
-      foto:'https://th.bing.com/th/id/OIP.cuJg1-7BEeBUNX1rABQMEgHaHa?pid=ImgDet&rs=1'
+      foto:''
     },
     {
-      nome: "olhos achatados 10 pares",
-      descricao: "9cm - redondo",
+      nome: "linha euroroma",
+      descricao: "3.00mts - algodão",
       valor: 25,
-      foto:'https://img.elo7.com.br/product/zoom/409D0E6/kit-olho-chato-9mm-12mm-e-16mm-15pares-para-amigurumi-olhos-com-trava-de-seguranca.jpg'
+      foto:''
     },
     {
       nome: "olhos pinos 10 pares",
-      descricao: "9cm - redondo",
+      descricao: "3.00mts - algodão",
       valor: 25,
       foto:'https://img.elo7.com.br/product/zoom/3562857/5-pares-olhos-15-mm-castanhos-boneca-esperanca-olhos-castanhos.jpg'
     },

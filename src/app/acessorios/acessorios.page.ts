@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { BdtempService } from '../services/bdtemp.service';
 
 @Component({
-  selector: 'app-agulhas',
-  templateUrl: './agulhas.page.html',
-  styleUrls: ['./agulhas.page.scss'],
+  selector: 'app-acessorios',
+  templateUrl: './acessorios.page.html',
+  styleUrls: ['./acessorios.page.scss'],
 })
-export class AgulhasPage implements OnInit {
+export class AcessoriosPage implements OnInit {
 
   qtdeItensCarrinho = 0;
 
@@ -37,7 +37,6 @@ export class AgulhasPage implements OnInit {
       foto:'https://img.elo7.com.br/product/zoom/3562857/5-pares-olhos-15-mm-castanhos-boneca-esperanca-olhos-castanhos.jpg'
     },
   ];
-
   constructor(public bdtemp: BdtempService) { }
 
   ngOnInit() {

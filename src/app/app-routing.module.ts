@@ -12,10 +12,14 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'ofertas',
+    loadChildren: () => import('./promocao/promocao.module').then( m => m.PromocaoPageModule)
+  },
+  {
     path: 'agulhas',
     loadChildren: () => import('./agulhas/agulhas.module').then( m => m.AgulhasPageModule)
   },
- 
+
   {
     path: 'bonecos',
     loadChildren: () => import('./bonecos/bonecos.module').then( m => m.BonecosPageModule)
@@ -24,6 +28,15 @@ const routes: Routes = [
     path: 'carrinho',
     loadChildren: () => import('./carrinho/carrinho.module').then( m => m.CarrinhoPageModule)
   },
+  {
+    path: 'linhas',
+    loadChildren: () => import('./linhas/linhas.module').then( m => m.LinhasPageModule)
+  },
+  {
+    path: 'acessorios',
+    loadChildren: () => import('./acessorios/acessorios.module').then( m => m.AcessoriosPageModule)
+  },
+
 
 
 ];
