@@ -22,7 +22,7 @@ export class AcessoriosPage implements OnInit {
       nome: "Marcador de pontos",
       descricao: "10 unidades",
       valor: 5,
-      foto:''
+      foto:'https://static3.tcdn.com.br/img/img_prod/864148/marcador_de_ponto_tipo_cadeado_para_croche_e_trico_pct_c_50_unid_1461_1_9b6de0d9d29cd71c0d3a67fd54ca80ff.jpg'
     },
     {
       nome: "olhos achatados 10 pares",
